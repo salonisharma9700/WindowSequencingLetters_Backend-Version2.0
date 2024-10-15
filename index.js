@@ -11,7 +11,7 @@ const corsOptions = {
 app.use(cors(corsOptions));
 
 
-mongoose.connect('mongodb+srv://salonisharma9700:salonijmd@cluster0.pkyznni.mongodb.net/WindowSequencingTAD?retryWrites=true&w=majority&appName=Cluster0', {
+mongoose.connect('', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
